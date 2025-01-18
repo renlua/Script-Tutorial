@@ -79,6 +79,7 @@ readfile("文件路径")
 
 -- syn文档:
 -- <string> readfile(<string> path)
+-- Reads the contents of the file located at and returns it. If the file does not exist, it errors.path
 
 writefile("文件路径", "文件内容")
 -- 不可使用的扩展名：.exe、.scr、.bat、.com、.csh、.msi、.vb、.vbs、.vbe、.ws、.wsf、.wsh、.ps1、.psy
@@ -89,7 +90,9 @@ writefile("文件路径", "文件内容")
 -- 如writefile("./文件夹名/文件名.txt", "test")
 
 -- syn文档:
--- <void> writefile(<string> filepath, <string> contents)  
+-- <void> writefile(<string> filepath, <string> contents)
+-- Writes to the supplied .contentsfilepath
+-- Extensions that are not allowed: .exe, .scr, .bat, .com, .csh, .msi, .vb, .vbs, .vbe, .ws, .wsf, .wsh, .ps1, .psy.
 
 appendfile("文件路径", "文件内容")
 -- appendfile的做用是"追加写入文件"("", "")中的第一项为文件路径，第二项为需追加写入文件的内容
@@ -99,7 +102,20 @@ appendfile("文件路径", "文件内容")
 -- 如appendfile("./文件夹名/文件名.txt", "test")
 
 -- syn文档:
--- <void> writefile(<string> filepath, <string> contents)  
+-- <void> writefile(<string> filepath, <string> contents)
+-- Appends to the file contents at . If the file does not exist, it errors.content path
+
+loadfile("文件路径")
+-- loadfile的做用是"加载文件中的脚本"("")中的第一项为文件路径
+-- 没文件夹的直接加文件名字
+-- 有文件夹的加"./"
+-- 如loadfile("文件名.txt")
+-- 如loadfile("./文件夹名/文件名.txt")
+
+-- syn文档:
+-- <function> loadfile(<string> path)
+-- Loads in the contents of a file as a chunk and returns it if compilation is successful. Otherwise, if an error has occured during compilation, nil followed by the error message will be returned.
+
 
 ```
 
