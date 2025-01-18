@@ -18,7 +18,7 @@
 > > > 在聊天框输入"/console"
 > > > 
 > > > 执行此代码
-> > > **game:GetService("VirtualInputManager"):SendKeyEvent(true, "F9", false, game)**
+> > > game:GetService("VirtualInputManager"):SendKeyEvent(true, "F9", false, game)
 > > 
 > > 电脑版
 > >
