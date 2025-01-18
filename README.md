@@ -80,42 +80,71 @@ setclipboard("设置剪切板")
 -- setclipboard的作用是"设置剪切板"("")中的内容在剪切板里
 -- 可以把任意内容设置于剪切板
 ```
-> 基础函数
-> 
-> game后面可以使用两种方式链接
-> 
-> 1.使用"game."
-> 
-> 2.使用"game:GetService("")"
-> 
-> 我更推荐第2种
-> 
-> > 传送功能
+> > > 基础函数
 > > 
-> game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 0, 0)
+> > game后面可以使用两种方式链接
+> > 
+> > 1.使用"game."
+> > 
+> > 2.使用"game:GetService("")"
+> > 
+> > 我更推荐第2种
 > 
-> 似乎看起来,特别混乱,让我们来拆分一下
-> 
-> game是游戏
-> 
-> players是玩家
-> 
-> LocalPlayer是本地玩家,就是使用脚本的人
-> 
-> Character如果你用翻译器翻译,会翻译出来字符
-> 
-> HumanoidRootPart是玩家的身体
-> 
-> CFrame是位置(坐标)
-> 
-> =是设置变量为右边的
-> 
-> CFrame.new是一个类型，对应的就是CFrame
-> 
-> 后面的(0, 0, 0)就是位置
-> 
-> 可以用以下代码复制位置到剪切板
+> > > 传送功能
+> > 
+> > game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 0, 0)
+> > 
+> > 似乎看起来,特别混乱,让我们来拆分一下
+> > 
+> > game是游戏
+> > 
+> > players是玩家
+> > 
+> > LocalPlayer是本地玩家,就是使用脚本的人
+> > 
+> > Character如果你用翻译器翻译,会翻译出来字符
+> > 
+> > HumanoidRootPart是玩家的身体
+> > 
+> > CFrame是位置(坐标)
+> > 
+> > =是设置变量为右边的
+> > 
+> > CFrame.new是一个类型，对应的就是CFrame
+> > 
+> > 后面的(0, 0, 0)就是位置
+> > 
+> > 可以用以下代码复制玩家当前位置到剪切板
+```lua
+setclipboard(tostring(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame))
+```
+```lua
+game:GetService("Players").LocalPlayer.AccountAge
+-- 账号注册时间(天)
+idenifyexecutor()
+-- 你的注入器名字
+game:GetService("Players").LocalPlayer.Character.Name
+game:GetService("Players").LocalPlayer.Name
+-- 注册时的名称
+game:GetService("Players").LocalPlayer.DisplayName
+-- 昵称可以变的
+game.PlaceId
+-- 服务器ID
+game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+-- 服务器名字
+game:GetService("Players").LocalPlayer.UserId
+game:GetService("Players").LocalPlayer.CharacterAppearanceId
+-- 用户ID，注册时分配的，不可变
+game:GetService("RbxAnalyticsService"):GetClientd()
+-- 客户端ID，删除再下载游戏就会变
+game:GetService("HttpService"):GetUserAgent()
+-- UA,Roblox请求外部网站时用的
+game:GetService("HttpService"):JSONDecode()
+-- 转json为lua表
+game:GetService("HttpService"):JSONEncode()
+-- 转lua表为json
 
+```
 
 #
 
