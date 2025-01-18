@@ -13,7 +13,7 @@
 ### 脚本制作教程
 * 制作脚本需要有一个UI 如:WareUI
 * WareUI模板:
-'''lua
+```lua
 local library = library:new("脚本名字")
 local Tab = library:Tab("标签")
 local section = Tab:section("分区",true)
@@ -43,5 +43,4 @@ section:Slider("拉条", "", 1, 1, 100, false, function(s)
 end)
 
 section:Label("标签")
-
-'''
+```
