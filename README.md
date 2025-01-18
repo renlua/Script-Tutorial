@@ -12,6 +12,16 @@
 * 2.学习lua 确保绝对会语法
 * 3.做脚本可能会遇到开户等行为我们要抵止这种行为
 
+### 脚本制作教程(语法)
+> 打开控制台
+> > 手机版
+> > > 在聊天框输入"/console"
+> > > 执行此代码 ```lua game:GetService("VirtualInputManager"):SendKeyEvent(true, "F9", false, game) ```
+```lua
+
+print("content")
+-- print的作用输出()中的内容在控制台
+```
 
 ### 脚本制作教程(基础)
 * 制作脚本需要有一个UI 如:WareUI
