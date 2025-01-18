@@ -6,7 +6,7 @@
 > 
 > [脚本如何加密](#加密)
 
-
+<font color=black>我是红色</font>
 ### 前言
 * 1.在你的设备上安装lua 编辑器 为了方便更好的了解lua这门语言 只观看不实践 永远没效果
 * 2.学习lua 确保绝对会语法
@@ -16,7 +16,11 @@
 > 打开控制台
 > > 手机版
 > > > 在聊天框输入"/console"
-> > > 执行此代码 ``lua game:GetService("VirtualInputManager"):SendKeyEvent(true, "F9", false, game) ```
+> > > 
+> > > 执行此代码
+> > > **game:GetService("VirtualInputManager"):SendKeyEvent(true, "F9", false, game)**
+
+
 ```lua
 
 print("content")
