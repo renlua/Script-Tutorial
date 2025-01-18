@@ -115,9 +115,8 @@ setclipboard("设置剪切板")
 > > 后面的(0, 0, 0)就是位置
 > > 
 > > 可以用以下代码复制玩家当前位置到剪切板
-```lua
-setclipboard(tostring(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame))
-```
+> > setclipboard(tostring(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame))
+
 ```lua
 game:GetService("Players").LocalPlayer.AccountAge
 -- 账号注册时间(天)
