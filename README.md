@@ -51,6 +51,18 @@
 * 基础代码
 * 此区块中大部分()里的""(双引号)可以换成''(单引号)
 ```lua
+loadstring()
+-- loadstring的作用是"加载脚本"
+
+game:HttpGet("URL")
+-- game:HttpGet的作用是"从("URL")中请求内容"
+-- URL为需请求的链接
+
+loadstring(game:HttpGet("URL"))
+-- 上面两个的结合体
+-- 最常用的
+-- loadstring(game:HttpGet("URL"))的作用是"加载脚本(从("URL")中请求内容)"
+
 print("输出")
 -- print的作用是"输出"("")中的内容在控制台
 
