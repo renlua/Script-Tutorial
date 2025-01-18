@@ -331,7 +331,11 @@ section:Label("标签")
 * 
 * 下载一个Discord
 * 电脑建议用电脑版，电脑更新太慢了
-* [手机Discord安装包]
+* [手机Discord安装包](https://www.123pan.com/s/FSIZjv-SeTE3)
+* 加入[Moonsec的频道](https://discord.gg/DxpvZzuJ6m)
+* 成员列表里面有个叫Moonsec V3的机器人
+* 给他发要加密的文件如图
+* ![图片](https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/QQ20250118-163439.png)
 
   
 
