@@ -1,3 +1,5 @@
+脚本教程看完变大牛
+
 此文章为中文
 
 请不要使用翻译
@@ -16,7 +18,7 @@
 > >
 > > [脚本制作教程(中等)](#脚本制作教程(中等))
 > > 
-> > [基础教程](#脚本制作教程(UI))
+> > [脚本制作教程(UI)](#脚本制作教程(UI))
 > 
 > [脚本如何加密](#加密)
 
@@ -66,6 +68,8 @@ setclipboard("设置剪切板")
 -- setclipboard的作用是"设置剪切板"("")中的内容在剪切板里
 -- 可以把任意内容设置于剪切板
 ```
+#
+
 ### 脚本制作教程(中等)
 * 修改文件代码
 * 此分区的所有操作为在"Workspace"文件夹中，无法读取个人信息
@@ -73,7 +77,7 @@ setclipboard("设置剪切板")
 readfile("文件路径")
 -- readfile的做用是"读取文件"("")中的内容为文件路径
 -- 没文件夹的直接加文件名字
--- 有文件夹的加"./"
+-- 有文件夹的加"./文件夹名"
 -- 如readfile("文件名.txt")
 -- 如readfile("./文件夹名/文件名.txt")
 
@@ -84,8 +88,9 @@ readfile("文件路径")
 writefile("文件路径", "文件内容")
 -- 不可使用的扩展名：.exe、.scr、.bat、.com、.csh、.msi、.vb、.vbs、.vbe、.ws、.wsf、.wsh、.ps1、.psy
 -- writefile的做用是"写入文件"("", "")中的第一项为文件路径，第二项为需写入文件的内容
+-- 文件不存在自动创建
 -- 没文件夹的直接加文件名字
--- 有文件夹的加"./"
+-- 有文件夹的加"./文件夹名"
 -- 如writefile("文件名.txt", "test")
 -- 如writefile("./文件夹名/文件名.txt", "test")
 
@@ -97,7 +102,7 @@ writefile("文件路径", "文件内容")
 appendfile("文件路径", "文件内容")
 -- appendfile的做用是"追加写入文件"("", "")中的第一项为文件路径，第二项为需追加写入文件的内容
 -- 没文件夹的直接加文件名字
--- 有文件夹的加"./"
+-- 有文件夹的加"./文件夹名"
 -- 如appendfile("文件名.txt", "test")
 -- 如appendfile("./文件夹名/文件名.txt", "test")
 
@@ -108,13 +113,71 @@ appendfile("文件路径", "文件内容")
 loadfile("文件路径")
 -- loadfile的做用是"加载文件中的脚本"("")中的第一项为文件路径
 -- 没文件夹的直接加文件名字
--- 有文件夹的加"./"
+-- 有文件夹的加"./文件夹名"
 -- 如loadfile("文件名.txt")
 -- 如loadfile("./文件夹名/文件名.txt")
 
 -- syn文档:
 -- <function> loadfile(<string> path)
 -- Loads in the contents of a file as a chunk and returns it if compilation is successful. Otherwise, if an error has occured during compilation, nil followed by the error message will be returned.
+
+listfiles("路径")
+-- listfiles的做用是"列出路径中的所有文件"("")中的第一项为路径
+-- 没文件夹的直接加"./"
+-- 有文件夹的加"./文件夹名"
+-- 如loadfile("./")
+-- 如loadfile("./文件夹名/文件名.txt")
+
+-- syn文档:
+-- <table> listfiles(<string> folder)
+-- Returns a table of files in .folder
+
+isfile("文件路径")
+-- isfile的做用是"判断路径是否为文件"("")中的第一项为文件路径
+-- 是文件返回true,不是文件返回false
+-- 没文件夹的直接加文件名
+-- 有文件夹的加"./文件夹名"
+-- 如isfile("文件名.txt")
+-- 如isfile("./文件夹名/文件名.txt")
+
+-- syn文档:
+-- <bool> isfile(<string> path)
+-- Returns if is a file or not.path
+
+isfolder("文件夹路径")
+-- isfolder的做用是"判断路径是否为文件夹"("")中的第一项为文件夹路径
+-- 是文件夹返回true,不是文件夹返回false
+-- 没文件夹的直接加文件夹名
+-- 有文件夹的加"./文件夹名"
+-- 如isfolder("文件夹名")
+-- 如isfolder("./文件夹名/文件夹名")
+
+-- syn文档:
+-- <bool> isfolder(<string> path)
+-- Returns if is a folder or not.path
+
+makefolder("文件夹名")
+-- makefolder的做用是"新建文件夹"("")中的第一项为文件夹名字
+-- 没文件夹的直接加文件夹名
+-- 有文件夹的加"./文件夹名"
+-- 如makefolder("文件夹名")
+-- 如makefolder("./文件夹名/文件夹名")
+
+-- syn文档:
+-- <void> makefolder(<string> filepath)
+-- Creates a new folder at .filepath
+
+delfolder("文件夹名")
+-- delfolder的做用是"删除文件夹"("")中的第一项为文件夹名字
+-- 没文件夹的直接加文件夹名
+-- 有文件夹的加"./文件夹名"
+-- 如delfolder("文件夹名")
+-- 如delfolder("./文件夹名/文件夹名")
+
+-- syn文档:
+-- <void> delfolder(<string> path)
+-- Deletes the folder in the supplied , if no folder exist errors.path
+
 
 
 ```
