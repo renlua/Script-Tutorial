@@ -156,8 +156,8 @@ isfolder("文件夹路径")
 -- <bool> isfolder(<string> path)
 -- Returns if is a folder or not.path
 
-makefolder("文件夹名")
--- makefolder的做用是"新建文件夹"("")中的第一项为文件夹名字
+makefolder("文件夹路径")
+-- makefolder的做用是"新建文件夹"("")中的第一项为文件夹路径
 -- 没文件夹的直接加文件夹名
 -- 有文件夹的加"./文件夹名"
 -- 如makefolder("文件夹名")
@@ -167,8 +167,8 @@ makefolder("文件夹名")
 -- <void> makefolder(<string> filepath)
 -- Creates a new folder at .filepath
 
-delfolder("文件夹名")
--- delfolder的做用是"删除文件夹"("")中的第一项为文件夹名字
+delfolder("文件夹路径")
+-- delfolder的做用是"删除文件夹"("")中的第一项为文件夹路径
 -- 没文件夹的直接加文件夹名
 -- 有文件夹的加"./文件夹名"
 -- 如delfolder("文件夹名")
@@ -178,7 +178,16 @@ delfolder("文件夹名")
 -- <void> delfolder(<string> path)
 -- Deletes the folder in the supplied , if no folder exist errors.path
 
+delfile("文件路径")
+-- delfile的做用是"删除文件"("")中的第一项为文件路径
+-- 没文件夹的直接加文件夹名
+-- 有文件夹的加"./文件夹名"
+-- 如delfile("文件名")
+-- 如delfile("./文件夹名/文件名")
 
+-- syn文档:
+-- <void> delfile(<string> path)
+-- Deletes the file in the supplied , if no file exist errors.path
 
 ```
 
