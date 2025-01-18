@@ -13,6 +13,8 @@
 > > [打开控制台](#脚本制作教程(打开控制台))
 > > 
 > > [打开控制台](#脚本制作教程(基础))
+> >
+> > [打开控制台](#脚本制作教程(中等))
 > > 
 > > [基础教程](#脚本制作教程(UI))
 > 
@@ -64,6 +66,7 @@ setclipboard("设置剪切板")
 -- setclipboard的作用是"设置剪切板"("")中的内容在剪切板里
 -- 可以把任意内容设置于剪切板
 ```
+### 脚本制作教程(中等)
 * 修改文件代码
 * 此分区的所有操作为在"Workspace"文件夹中，无法读取个人信息
 ```lua
@@ -88,6 +91,15 @@ writefile("文件路径", "文件内容")
 -- syn文档:
 -- <void> writefile(<string> filepath, <string> contents)  
 
+appendfile("文件路径", "文件内容")
+-- appendfile的做用是"追加写入文件"("", "")中的第一项为文件路径，第二项为需追加写入文件的内容
+-- 没文件夹的直接加文件名字
+-- 有文件夹的加"./"
+-- 如appendfile("文件名.txt", "test")
+-- 如appendfile("./文件夹名/文件名.txt", "test")
+
+-- syn文档:
+-- <void> writefile(<string> filepath, <string> contents)  
 
 ```
 
