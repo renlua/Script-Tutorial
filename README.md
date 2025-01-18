@@ -26,7 +26,7 @@
 
 ### 前言
 * 1.在你的设备上安装lua 编辑器 为了方便更好的了解lua这门语言 只观看不实践 永远没效果
-* 2.学习lua 确保绝对会语法
+* 2.学习lua需确保语法正确
 * 3.做脚本可能会遇到开户等行为我们要抵止这种行为
 * 4.此文章只供交流使用
 #
@@ -80,6 +80,43 @@ setclipboard("设置剪切板")
 -- setclipboard的作用是"设置剪切板"("")中的内容在剪切板里
 -- 可以把任意内容设置于剪切板
 ```
+> 基础函数
+> 
+> game后面可以使用两种方式链接
+> 
+> 1.使用"game."
+> 
+> 2.使用"game:GetService("")"
+> 
+> 我更推荐第2种
+> 
+> > 传送功能
+> > 
+> game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 0, 0)
+> 
+> 似乎看起来,特别混乱,让我们来拆分一下
+> 
+> game是游戏
+> 
+> players是玩家
+> 
+> LocalPlayer是本地玩家,就是使用脚本的人
+> 
+> Character如果你用翻译器翻译,会翻译出来字符
+> 
+> HumanoidRootPart是玩家的身体
+> 
+> CFrame是位置(坐标)
+> 
+> =是设置变量为右边的
+> 
+> CFrame.new是一个类型，对应的就是CFrame
+> 
+> 后面的(0, 0, 0)就是位置
+> 
+> 可以用以下代码复制位置到剪切板
+
+
 #
 
 ### 脚本制作教程(中等)
