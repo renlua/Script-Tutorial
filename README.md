@@ -20,7 +20,7 @@
 > > 
 > > [脚本制作教程(UI)](#脚本制作教程UI)
 > 
-> [脚本如何加密](#加密)
+> [脚本如何加密](#脚本如何加密)
 
 #
 
@@ -326,16 +326,25 @@ section:Label("标签")
 
 ### 脚本如何加密
 * 首先你要有一个邮箱
-* 
 * 若没有邮箱用 QQ号@qq.com 也可以
-* 
 * 下载一个Discord
 * 电脑建议用电脑版，电脑更新太慢了
 * [手机Discord安装包](https://www.123pan.com/s/FSIZjv-SeTE3)
 * 加入[Moonsec的频道](https://discord.gg/DxpvZzuJ6m)
 * 成员列表里面有个叫Moonsec V3的机器人
-* 给他发要加密的文件如图
+* 给他发要加密的文件
+* 他会返回一个东西
 * ![图片](https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/QQ20250118-163439.png)
+* 点击那个蓝色的"here"
+* 进去会跳转人机验证
+* 过完后给那个机器人发"done"
+* 他会返回一个东西
+* 下拉条选择Roblox
+* 然后三个红色全部点满
+* 一会儿，他会发一个东西
+* ![图片](https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/QQ20250118-164510.png)
+* 点击那个蓝色的"[Click Here]"
+* 他就会自动下载加密后的脚本到本地
 
   
 
