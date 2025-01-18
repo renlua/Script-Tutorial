@@ -16,7 +16,7 @@
 > 打开控制台
 > > 手机版
 > > > 在聊天框输入"/console"
-> > > 执行此代码 ```lua game:GetService("VirtualInputManager"):SendKeyEvent(true, "F9", false, game) ```
+> > > 执行此代码 **game:GetService("VirtualInputManager"):SendKeyEvent(true, "F9", false, game)**
 ```lua
 
 print("content")
