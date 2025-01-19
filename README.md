@@ -329,8 +329,8 @@ section:Label("标签")
 * 若没有邮箱用 QQ号@qq.com 也可以
 * 下载一个Discord
 * 电脑建议用电脑版，电脑更新太慢了
-* 手机Discord安装包
-* [链接：https://share.weiyun.com/9EH1KEIU 密码：666666](https://share.weiyun.com/9EH1KEIU)
+* 手机Discord安装包 ↓ ↓ ↓ ↓ ↓
+* [https://share.weiyun.com/9EH1KEIU 密码：666666](https://share.weiyun.com/9EH1KEIU)
 * 加入[Moonsec的频道](https://discord.gg/DxpvZzuJ6m)
 * 成员列表里面有个叫Moonsec V3的机器人
 * 给他发要加密的文件
