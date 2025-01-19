@@ -332,6 +332,7 @@ section:Label("标签")
 * 手机Discord安装包 ↓ ↓ ↓ ↓ ↓
 * [https://share.weiyun.com/9EH1KEIU 密码：666666](https://share.weiyun.com/9EH1KEIU)
 * 加入[Moonsec的频道](https://discord.gg/DxpvZzuJ6m)
+* https://discord.gg/DxpvZzuJ6m
 * 成员列表里面有个叫Moonsec V3的机器人
 * 给他发要加密的文件
 * 他会返回一个东西
