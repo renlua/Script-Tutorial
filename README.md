@@ -6,6 +6,7 @@
 
 翻译会导致文章的符号变为中文!!!
 
+有问题请发邮箱397510573@qq.com
 #
 
 # 脚本制作教程
@@ -48,7 +49,11 @@
 #
 
 ### 脚本制作教程(基础)
-* 基础
+> [基础](#基础)
+>
+> [函数](#函数)
+
+#### 基础
 * 此区块中大部分()里的""(双引号)可以换成''(单引号)
 ```lua
 loadstring()
@@ -116,6 +121,35 @@ setclipboard("设置剪切板")
 > > 
 > > 可以用以下代码复制玩家当前位置到剪切板
 > > setclipboard(tostring(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame))
+> >
+> > 但是上面不是唯一的传送方式
+> >
+> > 传送方式第二种
+> >
+> > Position是第二种传送方式
+> >
+> > 精度没有CFrame高
+> >  
+> > game:GetService("Players").LocalPlayer.Character:MoveTo(Vector3.new(0, 0, 0))
+> >
+> > game是游戏
+> > 
+> > players是玩家
+> > 
+> > LocalPlayer是本地玩家,就是使用脚本的人
+> >
+> > Character如果你用翻译器翻译,会翻译出来字符
+> >
+> > MoveTo移动到...
+> >
+> > Vector3.new是一个类型,很常用，修改size也是这个类型
+> >
+> > 后面的(0, 0, 0)就是位置
+> >
+> > 可以用以下代码复制玩家当前位置到剪切板
+> > setclipboard('game:GetService("Players").LocalPlayer.Character:MoveTo(Vector3.new('..tostring(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position)..'))')
+
+#### 函数
 
 ```lua
 game:GetService("Players").LocalPlayer.AccountAge
@@ -148,7 +182,20 @@ game:GetService("HttpService"):JSONEncode()
 #
 
 ### 脚本制作教程(中等)
+> [上传图片ID](#上传图片ID)
+> 
 > [文件操作](#文件操作)
+>
+> [Spy教程](#Spy)
+>
+> [Dex教程](#Dex)
+
+
+#### 上传图片ID
+* [Roblox创作中心 贴花](https://create.roblox.com/dashboard/creations?activeTab=Decal)
+* https://create.roblox.com/dashboard/creations?activeTab=Decal
+* 
+
 
 #### 文件操作
 * 修改文件代码
@@ -271,6 +318,12 @@ delfile("文件路径")
 
 ```
 
+#### Spy
+* 这是Spy代码，可以用来做脚本
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/Spy.lua"))
+```
+
 #
 
 ### 脚本制作教程(UI)
@@ -347,5 +400,4 @@ section:Label("标签")
 * 他就会自动下载加密后的脚本到本地
 
   
-
 
