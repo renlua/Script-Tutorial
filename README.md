@@ -453,6 +453,7 @@ game:GetService("HttpService"):JSONEncode()
 * 然后点击复制资源ID
 * 他会复制到剪切板
 * 这个就是你的图片资源ID
+* 但是还要在前面加rbxassetid://
 
 
 #### 文件操作
@@ -581,6 +582,10 @@ delfile("文件路径")
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/Spy.lua"))()
 ```
+* 这个不知道怎么说
+* 上视频
+* [https://share.weiyun.com/ukNqAeKC 密码：666666](https://share.weiyun.com/ukNqAeKC)
+
 
 #
 
