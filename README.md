@@ -334,10 +334,10 @@ section:Label("标签")
 * 加入[Moonsec的频道](https://discord.gg/DxpvZzuJ6m)
 * https://discord.gg/DxpvZzuJ6m
 * 成员列表里面有个叫Moonsec V3的机器人
-* ![图片](https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/QQ20250118-164510.png)
+* ![图片](https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/QQ20250119-122234.png)
 * 给他发要加密的文件
 * 他会返回一个东西
-![图片](https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/QQ20250119-122234.png)
+* ![图片](https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/QQ20250118-163439.png)
 * 点击那个蓝色的"here"
 * 进去会跳转人机验证
 * 过完后给那个机器人发"done"
