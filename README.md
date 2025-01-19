@@ -183,251 +183,250 @@ game:GetService("HttpService"):JSONEncode()
 * 感谢本地温迪
 * QQ 2378518248
 ```lua
-打印 Code = "print"
-局部:设", replace = "local "
-为 Code = "="
-局部:方法", replace = "local function "
-方法 Code = "function"
-方法执行", replace = "function()"
-返回 Code = "return "
-结束}", replace = "end "
-加", replace = "+"
-减", replace = "-"
-真的", replace = "true"
-假的", replace = "false"
-乘", replace = "*"
-除", replace = "/"
-等于", replace = "=="
-不等于", replace = "~="
-大于", replace = ">"
-小于", replace = "<"
-大于等于", replace = ">="
-小于等于", replace = "<="
-且", replace = "and "
-或", replace = "or "
-不是", replace = "not "
-如果", replace = "if "
-那么", replace = " then "
-其他 Code = "else "
-别的如果", replace = "elseif "
-停止", replace = "break "
-对于", replace = "for "
-在 Code = "in "
-当", replace = "while "
-就执行{", replace = "do "
-等待", replace = "task.wait() "
-继续", replace = "continue "
-转化数字 Code = "tonumber"
-转换字符 Code = "tostring"
-类型 Code = "type"
-抛出错误 Code = "error"
-判断是否抛出错误 Code = "assert"
-远程事件 Code = "game:GetService('ReplicatedStorage')."
-获取子级 Code = "GetChildren()"
-列表:插入 Code = "table.insert"
-列表:移除 Code = "table.remove"
-列表:元素连接 Code = "table.concat"
-列表:制成表 Code = "table.pack"
-列表:分解表 Code = "table.unpack"
-字符:子字符串 Code = "string.sub"
-字符:长度 Code = "string.len"
-字符:全改小写 Code = "string.lower"
-字符:全改大写 Code = "string.upper"
-字符:格式字符 Code = "string.format"
-字符寻找字符 Code = "string.match"
-字符:更替字符 Code = "string.gsub"
-数学:绝对值 Code = "math.abs"
-数学:大数取整 Code = "math.ceil"
-数学:小数取整 Code = "math.floor"
-数学:取最大返回 Code = "math.max"
-数学:取最小返回 Code = "math.min"
-数学:随机数 Code = "math.random"
-数学:平方根 Code = "math.sqrt"
-创建协程 Code = "coroutine.create"
-恢复协程 Code = "coroutine.resume"
-挂起协程 Code = "coroutine.yield"
-当前时间 Code = "os.time"
-当前日期 Code = "os.date"
-重复 Code = "repeat "
-直到 Code = "until "
-全局 Code = ""
-模块 Code = "require"
-定义类 Code = "class '"
-类结束", replace = "' end"
-继承 Code = ":extend"
-初始化 Code = "__init"
-静态 Code = "static"
-只读 Code = "readonly"
-属性 Code = "property"
-方法 Code = "method"
-调用", replace = "()"
-构造器 Code = "__newindex"
-元表 Code = "metatable"
-设置元表 Code = "setmetatable"
-获取元表 Code = "getmetatable"
-索引 Code = "__index"
-新索引 Code = "__newindex"
-连接 Code = ".."
-长度", replace = "#"
-文件打开 Code = "io.open"
-文件关闭 Code = "io.close"
-文件读取 Code = "io.read"
-文件写入 Code = "io.write"    
-环境 Code = "_G"
-加载 Code = "load"
-加载字符串 Code = "loadstring"
-执行 Code = "pcall"
-断言 Code = "assert"
-错误处理 Code = "xpcall"
-延迟调用 Code = "defer"
-线程 Code = "thread"
-新建线程 Code = "coroutine.create"
-启动线程 Code = "coroutine.resume"
-挂起线程 Code = "coroutine.yield"
-克隆 Code = "clone"
-销毁 Code = "destroy"
-父对象 Code = ".Parent"
-子对象 Code = ".Children"
-实例 Code = "Instance"
-新建实例 Code = "Instance.new"
-游戏服务 Code = "game:GetService"
-工作空间 Code = "workspace"
-玩家 Code = "Players"
-服务器 Code = "ServerScriptService"
-客户端 Code = "StarterPlayer"
-资源存储 Code = "ReplicatedStorage"
-光照 Code = "Lighting"
-声音 Code = "SoundService"
-网络 Code = "NetworkServer"
-聊天 Code = "Chat"
-物理 Code = "PhysicsService"
-数据存储 Code = "DataStoreService"
-市场 Code = "MarketplaceService"
-用户输入 Code = "UserInputService"
-分析 Code = "AnalyticsService"
-数据 Code = "game"
-等待 Code = "wait"
-任务等待 Code = "task.wait"
-服务 Code = "Service"
-事件 Code = "Event"
-信号 Code = "Signal"
-连接 Code = "Connect"
-触发 Code = "Fire"
-断开 Code = "Disconnect"
-等待完成 Code = "Wait"
-绑定到渲染步 Code = "BindToRenderStep"
-取消绑定 Code = "UnbindFromRenderStep"
-绑定到帧 Code = "BindToFrame"
-取消帧绑定 Code = "UnbindFromFrame"
-绑定到输入 Code = "BindToInput"
-取消输入绑定 Code = "UnbindFromInput"
-绑定到用户动作 Code = "BindToUserAction"
-取消用户动作绑定 Code = "UnbindFromUserAction"
-绑定到远程事件 Code = "OnClientEvent"
-触发远程事件 Code = "FireServer"
-绑定到远程过程调用 Code = "OnClientInvoke"
-触发远程过程调用 Code = "InvokeServer"
-绑定到属性改变 Code = "Changed"
-绑定到销毁 Code = "Destroying"
-绑定到子对象添加 Code = "ChildAdded"
-绑定到子对象移除 Code = "ChildRemoved"
-绑定到父对象改变 Code = "ParentChanged"
-绑定到点击 Code = "MouseButton1Click"
-绑定到拖动开始 Code = "DragBegin"
-绑定到拖动结束 Code = "DragEnd"
-绑定到鼠标进入 Code = "MouseEnter"
-绑定到鼠标离开 Code = "MouseLeave"
-绑定到鼠标移动 Code = "MouseMove"
-绑定到触摸开始 Code = "TouchStarted"
-绑定到触摸结束 Code = "TouchEnded"
-绑定到触摸移动 Code = "TouchMoved"
-绑定到输入开始 Code = "InputBegan"
-绑定到输入结束 Code = "InputEnded"
-绑定到键盘按下 Code = "KeyPress"
-绑定到键盘释放 Code = "KeyRelease"
-绑定到文本输入 Code = "TextInput"
-绑定到文本更改 Code = "TextChanged"
-绑定到滑动开始 Code = "ScrollBegin"
-绑定到滑动结束 Code = "ScrollEnd"
-绑定到滑动移动 Code = "ScrollMove"
-绑定到游戏加载 Code = "GameLoaded"
-绑定到游戏保存 Code = "GameSaving"
-绑定到游戏关闭 Code = "GameClosing"
-绑定到玩家加入 Code = "PlayerAdded"
-绑定到玩家移除 Code = "PlayerRemoving"
-绑定到玩家重生 Code = "PlayerRespawning"
-绑定到玩家重生完成 Code = "PlayerRespawned"
-绑定到角色添加 Code = "CharacterAdded"
-绑定到角色移除 Code = "CharacterRemoving"
-绑定到角色重生 Code = "CharacterRespawning"
-绑定到角色重生完成 Code = "CharacterRespawned"
-绑定到角色身体部分添加 Code = "BodyPartAdded"
-绑定到角色身体部分移除 Code = "BodyPartRemoved"
-绑定到角色身体部分改变 Code = "BodyPartChanged"
-绑定到角色身体部分碰撞 Code = "BodyPartTouched"
-绑定到角色身体部分不再碰撞 Code = "BodyPartUntouched"
-绑定到角色身体部分接触 Code = "BodyPartContact"
-绑定到角色身体部分接触结束 Code = "BodyPartContactEnd"
-绑定到角色身体部分接触开始 Code = "BodyPartContactStart"
-绑定到角色身体部分接触移动 Code = "BodyPartContactMove"
-绑定到角色身体部分接触更新 Code = "BodyPartContactUpdate"
-绑定到角色身体部分接触状态改变 Code = "BodyPartContactStateChanged"
-绑定到角色身体部分接触状态开始 Code = "BodyPartContactStateStart"
-绑定到角色身体部分接触状态结束 Code = "BodyPartContactStateEnd"
-绑定到角色身体部分接触状态更新 Code = "BodyPartContactStateUpdate"
-绑定到远程事件 Code = "OnClientEvent"
-触发远程事件 Code = "FireServer"
-绑定到远程过程调用 Code = "OnClientInvoke"
-触发远程过程调用 Code = "InvokeServer"
-绑定到属性改变 Code = "Changed"
-绑定到销毁 Code = "Destroying"
-绑定到子对象添加 Code = "ChildAdded"
-绑定到子对象移除 Code = "ChildRemoved"
-绑定到父对象改变 Code = "ParentChanged"
-绑定到点击 Code = "MouseButton1Click"
-绑定到拖动开始 Code = "DragBegin"
-绑定到拖动结束 Code = "DragEnd"
-绑定到鼠标进入 Code = "MouseEnter"
-绑定到鼠标离开 Code = "MouseLeave"
-绑定到鼠标移动 Code = "MouseMove"
-绑定到触摸开始 Code = "TouchStarted"
-绑定到触摸结束 Code = "TouchEnded"
-绑定到触摸移动 Code = "TouchMoved"
-绑定到输入开始 Code = "InputBegan"
-绑定到输入结束 Code = "InputEnded"
-绑定到键盘按下 Code = "KeyPress"
-绑定到键盘释放 Code = "KeyRelease"
-绑定到文本输入 Code = "TextInput"
-绑定到文本更改 Code = "TextChanged"
-绑定到滑动开始 Code = "ScrollBegin"
-绑定到滑动结束 Code = "ScrollEnd"
-绑定到滑动移动 Code = "ScrollMove"
-绑定到游戏加载 Code = "GameLoaded"
-绑定到游戏保存 Code = "GameSaving"
-绑定到游戏关闭 Code = "GameClosing"
-绑定到玩家加入 Code = "PlayerAdded"
-绑定到玩家移除 Code = "PlayerRemoving"
-绑定到玩家重生 Code = "PlayerRespawning"
-绑定到玩家重生完成 Code = "PlayerRespawned"
-绑定到角色添加 Code = "CharacterAdded"
-绑定到角色移除 Code = "CharacterRemoving"
-绑定到角色重生 Code = "CharacterRespawning"
-绑定到角色重生完成 Code = "CharacterRespawned"
-绑定到角色身体部分添加 Code = "BodyPartAdded"
-绑定到角色身体部分移除 Code = "BodyPartRemoved"
-绑定到角色身体部分改变 Code = "BodyPartChanged"
-绑定到角色身体部分碰撞 Code = "BodyPartTouched"
-绑定到角色身体部分不再碰撞 Code = "BodyPartUntouched"
-绑定到角色身体部分接触 Code = "BodyPartContact"
-绑定到角色身体部分接触结束 Code = "BodyPartContactEnd"
-绑定到角色身体部分接触开始 Code = "BodyPartContactStart"
-绑定到角色身体部分接触移动 Code = "BodyPartContactMove"
-绑定到角色身体部分接触更新 Code = "BodyPartContactUpdate"
-绑定到角色身体部分接触状态改变 Code = "BodyPartContactStateChanged"
-绑定到角色身体部分接触状态开始 Code = "BodyPartContactStateStart"
-绑定到角色身体部分接触状态结束 Code = "BodyPartContactStateEnd"
-绑定到角色身体部分接触状态更新 Code = "BodyPartContactStateUpdate"
-```
+    { pattern = "打印:", replace = "print" },
+    { pattern = "局部:设", replace = "local " },
+    { pattern = "为:", replace = "=" },
+    { pattern = "局部:方法", replace = "local function " },
+    { pattern = "方法:", replace = "function" },
+    { pattern = "方法执行", replace = "function()" },
+    { pattern = "返回:", replace = "return " },
+    { pattern = "结束}", replace = "end " },
+    { pattern = "加", replace = "+" },
+    { pattern = "减", replace = "-" },
+    { pattern = "真的", replace = "true" },
+    { pattern = "假的", replace = "false" },
+    { pattern = "乘", replace = "*" },
+    { pattern = "除", replace = "/" },
+    { pattern = "等于", replace = "==" },
+    { pattern = "不等于", replace = "~=" },
+    { pattern = "大于", replace = ">" },
+    { pattern = "小于", replace = "<" },
+    { pattern = "大于等于", replace = ">=" },
+    { pattern = "小于等于", replace = "<=" },
+    { pattern = "且", replace = "and " },
+    { pattern = "或", replace = "or " },
+    { pattern = "不是", replace = "not " },
+    { pattern = "如果", replace = "if " },
+    { pattern = "那么", replace = " then " },
+    { pattern = "其他:", replace = "else " },
+    { pattern = "别的如果", replace = "elseif " },
+    { pattern = "停止", replace = "break " },
+    { pattern = "对于", replace = "for " },
+    { pattern = "在:", replace = "in " },
+    { pattern = "当", replace = "while " },
+    { pattern = "就执行{", replace = "do " },
+    { pattern = "等待", replace = "task.wait() " },
+    { pattern = "继续", replace = "continue " },
+    { pattern = "转化数字:", replace = "tonumber" },
+    { pattern = "转换字符:", replace = "tostring" },
+    { pattern = "类型:", replace = "type" },
+    { pattern = "抛出错误:", replace = "error" },
+    { pattern = "判断是否抛出错误:", replace = "assert" },
+    { pattern = "远程事件:", replace = "game:GetService('ReplicatedStorage')." },
+    { pattern = "获取子级:", replace = "GetChildren()" },
+    { pattern = "列表:插入:", replace = "table.insert" },
+    { pattern = "列表:移除:", replace = "table.remove" },
+    { pattern = "列表:元素连接:", replace = "table.concat" },
+    { pattern = "列表:制成表:", replace = "table.pack" },
+    { pattern = "列表:分解表:", replace = "table.unpack" },
+    { pattern = "字符:子字符串:", replace = "string.sub" },
+    { pattern = "字符:长度:", replace = "string.len" },
+    { pattern = "字符:全改小写:", replace = "string.lower" },
+    { pattern = "字符:全改大写:", replace = "string.upper" },
+    { pattern = "字符:格式字符:", replace = "string.format" },
+    { pattern = "字符寻找字符:", replace = "string.match" },
+    { pattern = "字符:更替字符:", replace = "string.gsub" },
+    { pattern = "数学:绝对值:", replace = "math.abs" },
+    { pattern = "数学:大数取整:", replace = "math.ceil" },
+    { pattern = "数学:小数取整:", replace = "math.floor" },
+    { pattern = "数学:取最大返回:", replace = "math.max" },
+    { pattern = "数学:取最小返回:", replace = "math.min" },
+    { pattern = "数学:随机数:", replace = "math.random" },
+    { pattern = "数学:平方根:", replace = "math.sqrt" },
+    { pattern = "创建协程:", replace = "coroutine.create" },
+    { pattern = "恢复协程:", replace = "coroutine.resume" },
+    { pattern = "挂起协程:", replace = "coroutine.yield" },
+    { pattern = "当前时间:", replace = "os.time" },
+    { pattern = "当前日期:", replace = "os.date" },
+    { pattern = "重复:", replace = "repeat " },
+    { pattern = "直到:", replace = "until " },
+    { pattern = "全局:", replace = "" },
+    { pattern = "模块:", replace = "require" },
+    { pattern = "定义类:", replace = "class '" },
+    { pattern = "类结束", replace = "' end" },
+    { pattern = "继承:", replace = ":extend" },
+    { pattern = "初始化:", replace = "__init" },
+    { pattern = "静态:", replace = "static" },
+    { pattern = "只读:", replace = "readonly" },
+    { pattern = "属性:", replace = "property" },
+    { pattern = "方法:", replace = "method" },
+    { pattern = "调用", replace = "()" },
+    { pattern = "构造器:", replace = "__newindex" },
+    { pattern = "元表:", replace = "metatable" },
+    { pattern = "设置元表:", replace = "setmetatable" },
+    { pattern = "获取元表:", replace = "getmetatable" },
+    { pattern = "索引:", replace = "__index" },
+    { pattern = "新索引:", replace = "__newindex" },
+    { pattern = "连接:", replace = ".." },
+    { pattern = "长度", replace = "#" },
+    { pattern = "文件打开:", replace = "io.open" },
+    { pattern = "文件关闭:", replace = "io.close" },
+    { pattern = "文件读取:", replace = "io.read" },
+    { pattern = "文件写入:", replace = "io.write" },    
+    { pattern = "环境:", replace = "_G" },
+    { pattern = "加载:", replace = "load" },
+    { pattern = "加载字符串:", replace = "loadstring" },
+    { pattern = "执行:", replace = "pcall" },
+    { pattern = "断言:", replace = "assert" },
+    { pattern = "错误处理:", replace = "xpcall" },
+    { pattern = "延迟调用:", replace = "defer" },
+    { pattern = "线程:", replace = "thread" },
+    { pattern = "新建线程:", replace = "coroutine.create" },
+    { pattern = "启动线程:", replace = "coroutine.resume" },
+    { pattern = "挂起线程:", replace = "coroutine.yield" },
+    { pattern = "克隆:", replace = "clone" },
+    { pattern = "销毁:", replace = "destroy" },
+    { pattern = "父对象:", replace = ".Parent" },
+    { pattern = "子对象:", replace = ".Children" },
+    { pattern = "实例:", replace = "Instance" },
+    { pattern = "新建实例:", replace = "Instance.new" },
+    { pattern = "游戏服务:", replace = "game:GetService" },
+    { pattern = "工作空间:", replace = "workspace" },
+    { pattern = "玩家:", replace = "Players" },
+    { pattern = "服务器:", replace = "ServerScriptService" },
+    { pattern = "客户端:", replace = "StarterPlayer" },
+    { pattern = "资源存储:", replace = "ReplicatedStorage" },
+    { pattern = "光照:", replace = "Lighting" },
+    { pattern = "声音:", replace = "SoundService" },
+    { pattern = "网络:", replace = "NetworkServer" },
+    { pattern = "聊天:", replace = "Chat" },
+    { pattern = "物理:", replace = "PhysicsService" },
+    { pattern = "数据存储:", replace = "DataStoreService" },
+    { pattern = "市场:", replace = "MarketplaceService" },
+    { pattern = "用户输入:", replace = "UserInputService" },
+    { pattern = "分析:", replace = "AnalyticsService" },
+    { pattern = "数据:", replace = "game" },
+    { pattern = "等待:", replace = "wait" },
+    { pattern = "任务等待:", replace = "task.wait" },
+    { pattern = "服务:", replace = "Service" },
+    { pattern = "事件:", replace = "Event" },
+    { pattern = "信号:", replace = "Signal" },
+    { pattern = "连接:", replace = "Connect" },
+    { pattern = "触发:", replace = "Fire" },
+    { pattern = "断开:", replace = "Disconnect" },
+    { pattern = "等待完成:", replace = "Wait" },
+    { pattern = "绑定到渲染步:", replace = "BindToRenderStep" },
+    { pattern = "取消绑定:", replace = "UnbindFromRenderStep" },
+    { pattern = "绑定到帧:", replace = "BindToFrame" },
+    { pattern = "取消帧绑定:", replace = "UnbindFromFrame" },
+    { pattern = "绑定到输入:", replace = "BindToInput" },
+    { pattern = "取消输入绑定:", replace = "UnbindFromInput" },
+    { pattern = "绑定到用户动作:", replace = "BindToUserAction" },
+    { pattern = "取消用户动作绑定:", replace = "UnbindFromUserAction" },
+    { pattern = "绑定到远程事件:", replace = "OnClientEvent" },
+    { pattern = "触发远程事件:", replace = "FireServer" },
+    { pattern = "绑定到远程过程调用:", replace = "OnClientInvoke" },
+    { pattern = "触发远程过程调用:", replace = "InvokeServer" },
+    { pattern = "绑定到属性改变:", replace = "Changed" },
+    { pattern = "绑定到销毁:", replace = "Destroying" },
+    { pattern = "绑定到子对象添加:", replace = "ChildAdded" },
+    { pattern = "绑定到子对象移除:", replace = "ChildRemoved" },
+    { pattern = "绑定到父对象改变:", replace = "ParentChanged" },
+    { pattern = "绑定到点击:", replace = "MouseButton1Click" },
+    { pattern = "绑定到拖动开始:", replace = "DragBegin" },
+    { pattern = "绑定到拖动结束:", replace = "DragEnd" },
+    { pattern = "绑定到鼠标进入:", replace = "MouseEnter" },
+    { pattern = "绑定到鼠标离开:", replace = "MouseLeave" },
+    { pattern = "绑定到鼠标移动:", replace = "MouseMove" },
+    { pattern = "绑定到触摸开始:", replace = "TouchStarted" },
+    { pattern = "绑定到触摸结束:", replace = "TouchEnded" },
+    { pattern = "绑定到触摸移动:", replace = "TouchMoved" },
+    { pattern = "绑定到输入开始:", replace = "InputBegan" },
+    { pattern = "绑定到输入结束:", replace = "InputEnded" },
+    { pattern = "绑定到键盘按下:", replace = "KeyPress" },
+    { pattern = "绑定到键盘释放:", replace = "KeyRelease" },
+    { pattern = "绑定到文本输入:", replace = "TextInput" },
+    { pattern = "绑定到文本更改:", replace = "TextChanged" },
+    { pattern = "绑定到滑动开始:", replace = "ScrollBegin" },
+    { pattern = "绑定到滑动结束:", replace = "ScrollEnd" },
+    { pattern = "绑定到滑动移动:", replace = "ScrollMove" },
+    { pattern = "绑定到游戏加载:", replace = "GameLoaded" },
+    { pattern = "绑定到游戏保存:", replace = "GameSaving" },
+    { pattern = "绑定到游戏关闭:", replace = "GameClosing" },
+    { pattern = "绑定到玩家加入:", replace = "PlayerAdded" },
+    { pattern = "绑定到玩家移除:", replace = "PlayerRemoving" },
+    { pattern = "绑定到玩家重生:", replace = "PlayerRespawning" },
+    { pattern = "绑定到玩家重生完成:", replace = "PlayerRespawned" },
+    { pattern = "绑定到角色添加:", replace = "CharacterAdded" },
+    { pattern = "绑定到角色移除:", replace = "CharacterRemoving" },
+    { pattern = "绑定到角色重生:", replace = "CharacterRespawning" },
+    { pattern = "绑定到角色重生完成:", replace = "CharacterRespawned" },
+    { pattern = "绑定到角色身体部分添加:", replace = "BodyPartAdded" },
+    { pattern = "绑定到角色身体部分移除:", replace = "BodyPartRemoved" },
+    { pattern = "绑定到角色身体部分改变:", replace = "BodyPartChanged" },
+    { pattern = "绑定到角色身体部分碰撞:", replace = "BodyPartTouched" },
+    { pattern = "绑定到角色身体部分不再碰撞:", replace = "BodyPartUntouched" },
+    { pattern = "绑定到角色身体部分接触:", replace = "BodyPartContact" },
+    { pattern = "绑定到角色身体部分接触结束:", replace = "BodyPartContactEnd" },
+    { pattern = "绑定到角色身体部分接触开始:", replace = "BodyPartContactStart" },
+    { pattern = "绑定到角色身体部分接触移动:", replace = "BodyPartContactMove" },
+    { pattern = "绑定到角色身体部分接触更新:", replace = "BodyPartContactUpdate" },
+    { pattern = "绑定到角色身体部分接触状态改变:", replace = "BodyPartContactStateChanged" },
+    { pattern = "绑定到角色身体部分接触状态开始:", replace = "BodyPartContactStateStart" },
+    { pattern = "绑定到角色身体部分接触状态结束:", replace = "BodyPartContactStateEnd" },
+    { pattern = "绑定到角色身体部分接触状态更新:", replace = "BodyPartContactStateUpdate" },
+    { pattern = "绑定到远程事件:", replace = "OnClientEvent" },
+    { pattern = "触发远程事件:", replace = "FireServer" },
+    { pattern = "绑定到远程过程调用:", replace = "OnClientInvoke" },
+    { pattern = "触发远程过程调用:", replace = "InvokeServer" },
+    { pattern = "绑定到属性改变:", replace = "Changed" },
+    { pattern = "绑定到销毁:", replace = "Destroying" },
+    { pattern = "绑定到子对象添加:", replace = "ChildAdded" },
+    { pattern = "绑定到子对象移除:", replace = "ChildRemoved" },
+    { pattern = "绑定到父对象改变:", replace = "ParentChanged" },
+    { pattern = "绑定到点击:", replace = "MouseButton1Click" },
+    { pattern = "绑定到拖动开始:", replace = "DragBegin" },
+    { pattern = "绑定到拖动结束:", replace = "DragEnd" },
+    { pattern = "绑定到鼠标进入:", replace = "MouseEnter" },
+    { pattern = "绑定到鼠标离开:", replace = "MouseLeave" },
+    { pattern = "绑定到鼠标移动:", replace = "MouseMove" },
+    { pattern = "绑定到触摸开始:", replace = "TouchStarted" },
+    { pattern = "绑定到触摸结束:", replace = "TouchEnded" },
+    { pattern = "绑定到触摸移动:", replace = "TouchMoved" },
+    { pattern = "绑定到输入开始:", replace = "InputBegan" },
+    { pattern = "绑定到输入结束:", replace = "InputEnded" },
+    { pattern = "绑定到键盘按下:", replace = "KeyPress" },
+    { pattern = "绑定到键盘释放:", replace = "KeyRelease" },
+    { pattern = "绑定到文本输入:", replace = "TextInput" },
+    { pattern = "绑定到文本更改:", replace = "TextChanged" },
+    { pattern = "绑定到滑动开始:", replace = "ScrollBegin" },
+    { pattern = "绑定到滑动结束:", replace = "ScrollEnd" },
+    { pattern = "绑定到滑动移动:", replace = "ScrollMove" },
+    { pattern = "绑定到游戏加载:", replace = "GameLoaded" },
+    { pattern = "绑定到游戏保存:", replace = "GameSaving" },
+    { pattern = "绑定到游戏关闭:", replace = "GameClosing" },
+    { pattern = "绑定到玩家加入:", replace = "PlayerAdded" },
+    { pattern = "绑定到玩家移除:", replace = "PlayerRemoving" },
+    { pattern = "绑定到玩家重生:", replace = "PlayerRespawning" },
+    { pattern = "绑定到玩家重生完成:", replace = "PlayerRespawned" },
+    { pattern = "绑定到角色添加:", replace = "CharacterAdded" },
+    { pattern = "绑定到角色移除:", replace = "CharacterRemoving" },
+    { pattern = "绑定到角色重生:", replace = "CharacterRespawning" },
+    { pattern = "绑定到角色重生完成:", replace = "CharacterRespawned" },
+    { pattern = "绑定到角色身体部分添加:", replace = "BodyPartAdded" },
+    { pattern = "绑定到角色身体部分移除:", replace = "BodyPartRemoved" },
+    { pattern = "绑定到角色身体部分改变:", replace = "BodyPartChanged" },
+    { pattern = "绑定到角色身体部分碰撞:", replace = "BodyPartTouched" },
+    { pattern = "绑定到角色身体部分不再碰撞:", replace = "BodyPartUntouched" },
+    { pattern = "绑定到角色身体部分接触:", replace = "BodyPartContact" },
+    { pattern = "绑定到角色身体部分接触结束:", replace = "BodyPartContactEnd" },
+    { pattern = "绑定到角色身体部分接触开始:", replace = "BodyPartContactStart" },
+    { pattern = "绑定到角色身体部分接触移动:", replace = "BodyPartContactMove" },
+    { pattern = "绑定到角色身体部分接触更新:", replace = "BodyPartContactUpdate" },
+    { pattern = "绑定到角色身体部分接触状态改变:", replace = "BodyPartContactStateChanged" },
+    { pattern = "绑定到角色身体部分接触状态开始:", replace = "BodyPartContactStateStart" },
+    { pattern = "绑定到角色身体部分接触状态结束:", replace = "BodyPartContactStateEnd" },
+    { pattern = "绑定到角色身体部分接触状态更新:", replace = "BodyPartContactStateUpdate" },```
 
 #
 
