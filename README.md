@@ -579,7 +579,7 @@ delfile("文件路径")
 #### Spy
 * 这是Spy代码，可以用来做脚本
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/Spy.lua"))
+loadstring(game:HttpGet("https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/Spy.lua"))()
 ```
 
 #
