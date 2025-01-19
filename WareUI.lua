@@ -115,7 +115,7 @@ function drag(frame, hold)
 end
 function library.new(library, name, theme)
 	for _, v in next, services.CoreGui:GetChildren() do
-		if v.Name == "frosty is cute -- Make 123fa98" then
+		if v.Name == "REN" then
 			v:Destroy()
 		end
 	end
@@ -152,7 +152,7 @@ function library.new(library, name, theme)
 	if syn and syn.protect_gui then
 		syn.protect_gui(dogent)
 	end
-	dogent.Name = "frosty is cute -- Make 123fa98"
+	dogent.Name = "REN"
 	dogent.Parent = services.CoreGui
 	function UiDestroy()
 		dogent:Destroy()
@@ -240,7 +240,7 @@ function library.new(library, name, theme)
 	TabMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TabMain.BackgroundTransparency = 1.000
 	TabMain.Position = UDim2.new(0.217000037, 0, 0, 3)
-	TabMain.Size = UDim2.new(0, 448, 0, 350)
+	TabMain.Size = UDim2.new(0, 448, 0, 353)
 	MainC.CornerRadius = UDim.new(0, 5.5)
 	MainC.Name = "MainC"
 	MainC.Parent = Frame
