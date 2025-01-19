@@ -342,7 +342,9 @@ section:Label("标签")
 * 进去会跳转人机验证
 * 过完后给那个机器人发"done"
 * 他会返回一个东西
+* ![图片](https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/QQ20250119-123705.png)
 * 下拉条选择Roblox
+* ![图片](https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/QQ20250119-123903.png)
 * 然后三个红色全部点满
 * 一会儿，他会发一个东西
 * ![图片](https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/QQ20250118-164510.png)
