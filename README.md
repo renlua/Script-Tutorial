@@ -194,7 +194,7 @@ game:GetService("HttpService"):JSONEncode()
 #### 上传图片ID
 * [Roblox创作中心 贴花](https://create.roblox.com/dashboard/creations?activeTab=Decal)
 * https://create.roblox.com/dashboard/creations?activeTab=Decal
-* 
+* 点击这个上传图片 ![图片](https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/QQ20250119-191659.png)
 
 
 #### 文件操作
