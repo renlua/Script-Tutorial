@@ -584,8 +584,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/renlua/Script-Tutoria
 ```
 * 这个不知道怎么说
 * 上视频
-* [https://share.weiyun.com/ukNqAeKC 密码：666666](https://share.weiyun.com/ukNqAeKC)
-
+* [https://share.weiyun.com/nbyqFvXG 密码：666666](https://share.weiyun.com/nbyqFvXG)
 
 #
 
