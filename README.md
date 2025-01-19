@@ -426,7 +426,8 @@ game:GetService("HttpService"):JSONEncode()
     { pattern = "绑定到角色身体部分接触状态改变:", replace = "BodyPartContactStateChanged" },
     { pattern = "绑定到角色身体部分接触状态开始:", replace = "BodyPartContactStateStart" },
     { pattern = "绑定到角色身体部分接触状态结束:", replace = "BodyPartContactStateEnd" },
-    { pattern = "绑定到角色身体部分接触状态更新:", replace = "BodyPartContactStateUpdate" },```
+    { pattern = "绑定到角色身体部分接触状态更新:", replace = "BodyPartContactStateUpdate" },
+```
 
 #
 
@@ -444,6 +445,14 @@ game:GetService("HttpService"):JSONEncode()
 * [Roblox创作中心 贴花](https://create.roblox.com/dashboard/creations?activeTab=Decal)
 * https://create.roblox.com/dashboard/creations?activeTab=Decal
 * 点击这个上传图片 ![图片](https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/QQ20250119-191659.png)
+* 然后点击贴花右边的图像
+* 或进此链接
+* https://create.roblox.com/dashboard/creations?activeTab=Image
+* 选择刚刚的图片
+* 点击图片右上角三个点
+* 然后点击复制资源ID
+* 他会复制到剪切板
+* 这个就是你的图片资源ID
 
 
 #### 文件操作
