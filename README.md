@@ -593,6 +593,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/renlua/Script-Tutoria
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/dex.lua"))()
 ```
+* 这个不知道怎么说
+* 上视频
+* [https://share.weiyun.com/l5l1wyHk 密码：666666](https://share.weiyun.com/l5l1wyHk)
+
+
 #
 
 ### 脚本制作教程(UI)
