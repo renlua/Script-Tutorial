@@ -441,7 +441,7 @@ game:GetService("HttpService"):JSONEncode()
 >
 > [Dex教程](#Dex)
 > 
-> [Hook](#Hook]
+> [Hook](#Hook)
 
 
 #### 上传图片ID
