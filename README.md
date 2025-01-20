@@ -597,8 +597,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/renlua/Script-Tutoria
 ```
 * 这个不知道怎么说
 * 上视频
-* [https://share.weiyun.com/l5l1wyHk 密码：666666](https://share.weiyun.com/l5l1wyHk)
-
+* 教学1 [https://share.weiyun.com/l5l1wyHk 密码：666666](https://share.weiyun.com/l5l1wyHk)
+* 教学2 [https://share.weiyun.com/WECQih4F 密码：666666](https://share.weiyun.com/WECQih4F)
+* 教学3 [https://share.weiyun.com/kL40zxsx 密码：666666](https://share.weiyun.com/kL40zxsx)
 #### Hook
 ```lua
 hookfunction
