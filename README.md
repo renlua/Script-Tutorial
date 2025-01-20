@@ -1,4 +1,5 @@
 * 感谢本地温迪 QQ 2378518248
+* 感谢小云 QQ 3065560594
 
 脚本教程看完变大牛
 
@@ -586,6 +587,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/renlua/Script-Tutoria
 * 上视频
 * [https://share.weiyun.com/nbyqFvXG 密码：666666](https://share.weiyun.com/nbyqFvXG)
 
+#### Dex
+* 这是Dex代码，可以用来做脚本，功能比Spy多
+* 也比Spy难
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/dex.lua"))()
+```
 #
 
 ### 脚本制作教程(UI)
