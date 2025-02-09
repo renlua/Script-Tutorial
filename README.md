@@ -515,8 +515,8 @@ listfiles("路径")
 -- listfiles的做用是"列出路径中的所有文件"("")中的第一项为路径
 -- 没文件夹的直接加"./"
 -- 有文件夹的加"./文件夹名"
--- 如loadfile("./")
--- 如loadfile("./文件夹名/文件名.txt")
+-- listfiles("./")
+-- listfiles("./文件夹名/")
 
 -- syn文档:
 -- <table> listfiles(<string> folder)
